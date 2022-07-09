@@ -261,3 +261,59 @@ textarea {
   }
 }
 
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/**header**/
+header {
+  background-color: rgb(27, 27, 27);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav p img {
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(218, 216, 216);
+}
+
+/**hero image**/
+.hero-image {
+  min-height: 90vh;
+  background-image: url("/Assets/jake-melara-30679-unsplash.jpg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  /* align-items: center; */
+  color: rgb(218, 216, 216);
+  flex-direction: column;
+  text-align: left;
+}
+
+h1 {
+  width: 60%;
+  margin: 0;
+  padding-left: 11%;
+  padding-top: 5%;
+}
