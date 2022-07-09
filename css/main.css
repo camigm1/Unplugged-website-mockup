@@ -317,3 +317,20 @@ h1 {
   padding-left: 11%;
   padding-top: 5%;
 }
+
+/**join section**/
+
+.join-retreat {
+  background-color: #2d8659;
+  color: rgb(218, 216, 216);
+}
+
+.join-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.join p {
+  width: 40%;
+}
