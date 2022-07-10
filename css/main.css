@@ -323,14 +323,33 @@ h1 {
 .join-retreat {
   background-color: #2d8659;
   color: rgb(218, 216, 216);
+  padding: 6% 0 6% 0;
 }
 
 .join-wrapper {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
 }
-
+.join {
+  width: 60%;
+}
 .join p {
   width: 40%;
+}
+
+.button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  background-color: #194d33;
+  color: rgb(218, 216, 216);
+  padding: 4%;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.fint-out {
+  width: 50%;
 }
