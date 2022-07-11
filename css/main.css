@@ -298,8 +298,8 @@ ul li a {
 
 /**hero image**/
 .hero-image {
-  min-height: 90vh;
   background-image: url("/Assets/jake-melara-30679-unsplash.jpg");
+  min-height: 90vh;
   color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -352,4 +352,15 @@ h1 {
 
 .fint-out {
   width: 50%;
+}
+
+/**amenities**/
+
+.amenities {
+  background-image: url("/Assets/rawpixel-800820-unsplash1.jpg");
+  min-height: 90vh;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
